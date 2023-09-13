@@ -1,0 +1,104 @@
+.top{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid
+}
+.hel{
+    height: 32px;
+    margin-left: 25px;
+
+}
+.top-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 32px;
+    font-size: 18px;
+    padding-right: 15px;
+
+    
+}
+.bot-list{
+    display: flex;
+    margin: 0 var(--gl-spacing-0100);
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 25px;
+    list-style: none;
+    
+}
+.sec{
+    display: flex;
+    margin-left: 18px;
+    font-size: x-large;
+    
+}
+.img{
+    
+    float: left;
+    margin-top: -44px;
+
+}
+.search-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+}
+.search{
+    display: flex;
+    position: relative;
+    height: 32px;
+    
+    background-color: darkgrey;
+
+}
+input[type="search"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+.bi-search{
+    margin-left: -27px;
+    margin-top: 5px;
+    width: 23px;
+    height: 23px
+}
+.bi{
+   width: 23px;
+   height: 23px; 
+}
+.main{
+position: relative;
+
+}
+.shop-div{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    padding-left: 10px;
+}
+.shop{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid;
+    width: fit-content;
+    box-shadow: 4px 5px black;
+
+}
+.arrow-right{
+margin-bottom: -7px;
+width: 23px;
+height: 23px;
+margin-inline-start: 22px;
+}
+.tex{
+    text-decoration: none;
+}
